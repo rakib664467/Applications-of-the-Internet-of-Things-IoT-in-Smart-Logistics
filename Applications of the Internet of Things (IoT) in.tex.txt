@@ -1,0 +1,299 @@
+% Desenvolvido por: Prof. Dr. David Buzatto
+%
+% Versão 1.6.1
+% Data: 30/11/2022
+
+\documentclass[
+	article,
+	11pt,
+	oneside,
+	a4paper,
+	chapter=TITLE,
+	section=TITLE,
+	english,
+	brazil,
+	sumario=tradicional
+]{abntex2}
+
+\usepackage{estrutura}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
+
+% ---
+% Dados do documento
+% ---
+
+\tipotrabalho{Artigo}
+
+\titulo{Título}
+\instituicao{Instituto Federal de Educação, Ciência e Tecnologia de São Paulo}
+\campus{São João da Boa Vista}
+\area{Área de Concentração do Trabalho}
+
+\aluno{Nome Completo}
+\local{São João da Boa Vista}
+
+\dia{DIA}
+\mes{MÊS}
+\ano{ANO}
+
+\curso{Nome do Curso}
+\grau{Definição do grau}
+
+%exemplos
+%\curso{Tecnologia em Sistemas para Internet}
+%\grau{Tecnólogo em Sistemas para Internet}
+%\curso{Especialização em Desenvolvimento de Aplicações para Dispositivos Móveis}
+%\grau{Especialista em Desenvolvimento de Aplicações para Dispositivos Móveis}
+
+\orientador{Prof./Profa. Esp./Me./Dr./Dra. Nome Completo Orientador}
+\gradorientador{Nome do Curso de Graduação do Orientador}
+\instgradorientador{Nome da Instituição da Graduação do Orientador}
+\posorientador{Especialista/Mestre/Doutor em Nome do Curso de Pós-graduação do Orientador}
+\instposorientador{Nome da Instituição da Pós-graduação do Orientador}
+\docorientador{Curso Superior em que o Orientador da Aulas majoritariamente}
+
+% caso não haja coorientador, comente as próximas seis linhas
+\coorientador{Prof./Profa. Esp./Me./Dr./Dra. Nome Completo Coorientador}
+\gradcoorientador{Nome do Curso de Graduação do Coorientador}
+\instgradcoorientador{Nome da Instituição da Graduação do Coorientador}
+\poscoorientador{Especialista/Mestre/Doutor em Nome do Curso de Pós-graduação do Coorientador}
+\instposcoorientador{Nome da Instituição da Pós-graduação do Coorientador}
+\doccoorientador{Curso Superior em que o Coorientador da Aulas majoritariamente}
+
+% exemplo
+%\orientador{Prof. Dr. David Buzatto}
+%\gradorientador{Sistemas de Informação}
+%\instgradorientador{UniFEOB}
+%\posorientador{Doutor em Biotecnologia}
+%\instposorientador{UNAERP}
+%\docorientador{Tecnologia em Sistemas para Internet}
+
+%\coorientador{Prof. Dr. Breno Lisi Romano}
+%\gradcoorientador{Ciência da Computação}
+%\instgradcoorientador{UNIFEI}
+%\poscoorientador{Doutor em Engenharia Eletrônica e Computação}
+%\instposcoorientador{ITA}
+%\doccoorientador{Tecnologia em Sistemas para Internet}
+
+\definirdata
+\definirautores
+
+\makeindex
+
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+\setlength{\ABNTEXcitacaorecuo}{1.8cm}
+\SingleSpacing
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+	
+	% Seleciona o idioma do documento
+	\selectlanguage{brazil}
+	
+	% Retira espaço extra obsoleto entre as frases.
+	\frenchspacing 
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS PRÉ-TEXTUAIS
+	% ----------------------------------------------------------
+	
+	% Se desejar escrever o artigo em duas colunas, descomente a linha abaixo
+	% e a linha com o texto "FIM DE ARTIGO EM DUAS COLUNAS".
+	% \twocolumn[    		% INICIO DE ARTIGO EM DUAS COLUNAS
+    
+	% título
+	\       Applications of the Internet of Things (IoT) in
+Smart Logistics
+	% resumo em português
+	\begin{resumoumacoluna}
+		
+	
+developing smarter approaches to improve logistics efficiency
+and reduce logistics costs, in both academia and industry, is a
+timely and important topic nowadays.
+		
+		\vspace{\onelineskip}
+		
+		\noindent
+		\textbf{APPLICATIONS OF IoT IN SMART LOGISTICS: COMPREHENSIVE SURVEY}: P. Mell and T. Grance, The NIST
+
+Comput., vol. 20, no. 4, pp. 606–626, Aug. 2016.
+		
+	\end{resumoumacoluna}
+	
+    % resumo em inglês
+    \renewcommand{\resumoname}{Abstract}
+    \begin{resumoumacoluna}
+    	
+        \begin{otherlanguage*}{english}
+
+solve these problems. As one of the important technologies of the
+modern information and communication technology (ICT), the
+Internet of Things (IoT) can create oceans of data and explore
+the complex relationships between the transactions represented
+
+technologies for IoT in smart logistics. Furthermore, we review
+how IoT technologies are applied in the realm of smart logistics
+from the perspectives of logistics transportation, warehousing,
+loading/unloading, carrying, distribution processing, distribution,
+and information processing. Finally, some challenges and future
+directions are discussed.
+Index Terms—Internet of Things (IoT), smart logistics, wireless
+communication.
+I. I   	    	Resumo em inglês.
+   		
+       		\vspace{\onelineskip}
+   		
+   	    	\noindent
+   		   \textbf{}:.
+   		   
+      \end{otherlanguage*} 
+  
+   	\end{resumoumacoluna}
+        
+	% ]  				% FIM DE ARTIGO EM DUAS COLUNAS
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS TEXTUAIS
+	% ----------------------------------------------------------
+	\textual
+	
+	% ----------------------------------------------------------
+	% Introdução
+	% ----------------------------------------------------------
+	\section{Introdução}
+	
+    However, on account of the complex supply chains and high
+labor costs, the costs of logistics are still at a relatively high
+level. For example, as one of the high efficient countries in
+terms of logistics, U.S. spent 
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     
+     \subsection{Revisão da Literatura}
+     
+     1. Roadmap of IoT in smart logistics.
+roadmap that considers the related issues in the conjunction
+of these two areas more comprehensively.
+The main contributions of this article are as follows.
+1) We investigate the state-of-the-art researches on smart
+logistics and IoT technologies, summarize and analyze
+
+functions, and key technologies of smart logistics.
+3) We further discuss enabling technologies for IoT
+ the current situation and
+Figura~\ref{fig:exemplo}
+     
+     \FloatBarrier
+     \begin{figure}[!htbp]
+     	\centering
+     	\caption{Exemplo de figura}
+     	%scale redimensiona a figura.
+     	%1.5 = 150% do tamanho original
+     	%1 = 100% do tamanho original
+     	%0.20 = 20% do tamanho original
+     	\includegraphics[scale=1.5]{imagens/Screenshot (26).png}
+     	\\\textbf{Fonte:} 
+     	\label{fig:exemplo}
+     \end{figure}
+     \FloatBarrier
+     
+     
+    
+     
+    Ferreira et al. [10] reviewed the main technologies of IoT
+associated with automated support of business processes in
+logistics. They introduce smart items, including RFID and
+WSN. Then, they focus on IoT-based support of design and
+runtime changes considering dynamic changes in business
+processes. In this survey, IoT is detailed only from smart
+logistics information processing (e.g., business processes), and
+
+distribution center as a real-world scenario to illustrate the
+development of CPLS. Although the survey illustrates the
+detailed solutions of IoT in smart logistics combining with
+practical application scenarios, it pays no particular attention
+to challenges of IoT in smart logistics and the impact of new
+key technologies on smart logistics.
+Trappey et al. [14] surveyed the literature related to
+the technologies of IoT that include RFID, WSN, and
+cloud computing. The construction and the applications of
+
+questions.
+Paper [13] introduces the application of IoT in the related
+fields on the basis of the theories of IoT, analyzes the effect
+of IoT on logistics information in logistics service supply
+chain (LSSC), builds the architecture of LSSC based on IoT,
+and forecasts the application prospect. This survey details
+
+data exchange. Unfortunately, the authors only focus on the
+analysis and applications of the key technologies of IoT,
+neglecting many other important key technologies of IoT and
+their impact on smart logistics, such as RFID, WSN, and
+artificial intelligence (AI).
+Lee and Lee [16] presented five IoT technologies (RFID,
+
+In [17], some information processing technologies are used
+to enhance the design and evaluation of city logistics schemes\ref{eq:exemplo}
+     
+     \begin{equation}
+     \
+     \label{eq:exemplo}
+     \end{equation}
+     
+     offering a classic survey, our intent is to organize the aspects
+of smart logistics systematically and present a roadmap for
+applications, challenges, and the future of IoT technologies in
+these aspects. Compared to other surveys, our version is more
+convenient and clear for the readers to understand.
+III. BACKGROUND KNOWLEDGE OF SMART LOGISTICS
+Smart logistics is an inevitable trend in the development of
+modern logistics, the research topic of which has attracted a
+lot of attention from academia and industry. In this section,
+we introduce the knowledge about smart logistics briefly from
+definition, evolution, basic functions, and solutions.
+A. Concept
+
+nd evaluation of city logistics
+schemes.
+
+	
+	\FloatBarrier
+	\begin{figure*}[!htbp]
+		\centering
+		\includegraphics[scale=1]{imagens/Screenshot (28).png}
+	\end{figure*}
+	\FloatBarrier
+	
+	\begin{enumerate}
+		
+	\end{enumerate}
+	
+	\textbf{:}
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS PÓS-TEXTUAIS
+	% ----------------------------------------------------------
+	\postextual
+	\bibliography{referencias}
+	]
+S. Sagiroglu and D. Sinanc, “Big data: A review,” in Proc. Int.
+Conf. Collab. Technol. Syst. (CTS), San Diego, CA, USA, May 2013,
+pp. 42–47.
+	%
+	% Este é um exemplo de folha de aprovação.
+	%
+	% A folha de aprovação final será inserida pelo Coordenador do Curso.
+	%
+
+
+\end{document}
